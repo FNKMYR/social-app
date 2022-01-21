@@ -1,0 +1,11 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --social-pink: #f62e8e;
+  --social-blue: #2e8af6;
+  --dark-black: #181a1c;
+  --light-white: #ecebed;
+  --gray: #323436;
+  --light-gray: #727477;
+  --gradient: linear-gradient(90deg, #f62e8e, #ac1af0);
+}

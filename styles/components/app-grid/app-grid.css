@@ -1,0 +1,55 @@
+.app-grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 2fr 2fr 40px 40% 48px;
+  height: 100vh;
+}
+
+.item1 {
+  grid-area: a;
+}
+
+.item2 {
+  grid-area: c;
+}
+
+/* home */
+
+.app-grid__home {
+  grid-template-areas: "a" "b" "b" "b" "b" "b" "nav";
+}
+
+.app-grid__home--header {
+  grid-area: a;
+}
+
+.app-grid__home--stories {
+  grid-area: b;
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.app-grid__home--main {
+  grid-area: b;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.app-grid__search {
+  grid-template-areas: "a" "b" "c" "d" "e" "f" "nav";
+}
+
+.app-grid__alerts {
+  grid-template-areas: "a" "b" "c" "d" "e" "f" "nav";
+}
+
+.app-grid__profile {
+  grid-template-areas: "a" "b" "c" "d" "e" "f" "nav";
+}
+
+.app-grid__scroll-area {
+  overflow: scroll;
+}
+
+.app-grid__footnav {
+  grid-area: nav;
+}
