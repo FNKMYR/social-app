@@ -8,8 +8,11 @@
 
 html {
   background: var(--dark-black);
+  font-family: ;
 }
 
 body {
   color: var(--light-white);
+  font-family: "hk_groteskmedium";
 }
+
