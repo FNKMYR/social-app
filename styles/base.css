@@ -7,11 +7,9 @@
 }
 
 html {
-  /* background: var(--gradient); */
-  background-repeat: no-repeat;
+  background: var(--dark-black);
 }
 
-p {
-  border: 1px solid rgb(48, 41, 41);
-  overflow: hidden;
+body {
+  color: var(--light-white);
 }
