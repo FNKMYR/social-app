@@ -1,0 +1,33 @@
+.footnav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footnav__button {
+  background: var(--gradient);
+  width:40px;
+  height:40px;
+  font-size: 22.5px;
+  border-radius: 100px;
+  text-align: center;
+  text-decoration: none;
+  color: var(--light-white);
+  font-family: "hk_groteskbold";
+}
+
+.footnav__underline__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footnav__underline {
+ margin-top: 10px;
+ border-top: solid 3px var(--light-white);
+ padding-left: 110px;
+ padding-right: 110px;
+ border-radius: 2px;
+}
+
+

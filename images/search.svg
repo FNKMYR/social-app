@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:vectornator="http://vectornator.io" viewBox="0 0 292.003 283.186" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="100%" xml:space="preserve" height="100%" xmlns="http://www.w3.org/2000/svg">
+<metadata>
+<vectornator:setting value="true" key="WDGuidesVisible"/>
+<vectornator:setting value="false" key="WDIsolateActiveLayer"/>
+<vectornator:setting key="WDSnapToPoints" value="false"/>
+<vectornator:setting value="true" key="WDRulersVisible"/>
+<vectornator:setting key="WDSnapToEdges" value="false"/>
+<vectornator:setting key="WDDynamicGuides" value="false"/>
+<vectornator:setting value="false" key="WDOutlineMode"/>
+<vectornator:setting key="WDDisplayWhiteBackground" value="false"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting value="Pixels" key="WDUnits"/>
+<vectornator:setting value="false" key="IsTimeLapseWatermarkDisabled"/>
+<vectornator:setting value="true" key="VNDimensionsVisible"/>
+<vectornator:setting value="false" key="WDSnapToGrid"/>
+<vectornator:setting value="false" key="WDCMYKEnabledKey"/>
+<vectornator:setting value="true" key="VNSnapToGuides"/>
+</metadata>
+<defs/>
+<g id="Layer 1" vectornator:layerName="Layer 1">
+<path opacity="1" stroke-linejoin="miter" stroke="#ecebed" fill="none" stroke-width="3" d="M120.755+10.6613C60.2743+10.6613+11.2451+58.5569+11.2451+117.639C11.2451+176.722+60.2743+224.617+120.755+224.617C181.235+224.617+230.265+176.722+230.265+117.639C230.265+58.557+181.235+10.6613+120.755+10.6613Z" stroke-linecap="butt"/>
+<path stroke-width="8" stroke="#ecebed" stroke-linejoin="round" opacity="1" fill="none" d="M278.936+272.163L199.079+194.152" stroke-linecap="round"/>
+</g>
+</svg>
