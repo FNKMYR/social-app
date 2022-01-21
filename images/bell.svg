@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:vectornator="http://vectornator.io" width="100%" style="fill-rule:nonzero;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 0 254.91 283.186" version="1.1">
+<metadata>
+<vectornator:setting key="WDSnapToGrid" value="false"/>
+<vectornator:setting value="true" key="VNDimensionsVisible"/>
+<vectornator:setting key="VNSnapToGuides" value="true"/>
+<vectornator:setting value="false" key="WDIsolateActiveLayer"/>
+<vectornator:setting key="UndoHistoryDisabled" value="true"/>
+<vectornator:setting value="false" key="WDDisplayWhiteBackground"/>
+<vectornator:setting value="true" key="WDGuidesVisible"/>
+<vectornator:setting key="WDSnapToPoints" value="false"/>
+<vectornator:setting key="WDRulersVisible" value="true"/>
+<vectornator:setting key="WDOutlineMode" value="false"/>
+<vectornator:setting value="false" key="IsTimeLapseWatermarkDisabled"/>
+<vectornator:setting key="WDCMYKEnabledKey" value="false"/>
+<vectornator:setting value="false" key="WDSnapToEdges"/>
+<vectornator:setting value="false" key="WDDynamicGuides"/>
+<vectornator:setting key="WDUnits" value="Points"/>
+</metadata>
+<defs/>
+<g vectornator:layerName="Layer 1" id="Layer 1">
+<path fill-rule="evenodd" stroke-width="3" d="M143.634+50.0432L102.116+50.0432L102.116+30.0257C102.116+18.9761+111.416+10.0083+122.875+10.0083L122.875+10.0083C134.334+10.0083+143.634+18.9761+143.634+30.0257L143.634+50.0432ZM122.875+223.528C107.589+223.528+95.1968+235.477+95.1968+250.218C95.1968+264.958+107.589+276.907+122.875+276.907C138.161+276.907+150.553+264.958+150.553+250.218C150.553+235.477+138.161+223.528+122.875+223.528Z" stroke-linecap="butt" fill="#ecebed" stroke="#ecebed" opacity="1" stroke-linejoin="miter"/>
+<path fill="none" d="M12.1623+223.528L233.588+223.528M205.91+223.528L192.07+183.493L192.07+116.768C192.07+79.9225+161.085+50.0432+122.875+50.0432L122.875+50.0432C84.6653+50.0432+53.6795+79.9225+53.6795+116.768L53.6795+183.493L39.8404+223.528" stroke-linejoin="miter" stroke-width="20" opacity="1" stroke-linecap="butt" stroke="#ecebed"/>
+</g>
+</svg>
