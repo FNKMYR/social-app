@@ -5,6 +5,80 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="../styles/index.css" />
   </head>
-  <body></body>
+  <body class="app-grid app-grid__search">
+    <!--searchbar-->
+    <form class="searchbar app-grid__search--searchbar">
+      <input
+        type="text"
+        class="searchbar__input"
+        aria-label="inputfield text for search"
+        placeholder="Search for people, posts, tags..."
+      />
+      <button
+        type="submit"
+        class="searchbar__submit"
+        aria-label="submit text for search"
+      >
+        <img
+          src="../../../images/icons8-search.svg"
+          alt="Submit text for search"
+          width="20"
+          height="20"
+        />
+      </button>
+    </form>
+
+    <!--tagbar-->
+    <h1 class="app-grid__search--heading">Popular</h1>
+    <div class="tagbar app-grid__search--tagbar">
+      <button class="tagbar__tag text-white tagbar__tag--all">All</button>
+      <button class="tagbar__tag text-white">Photos</button>
+      <button class="tagbar__tag text-white">Videos</button>
+      <button class="tagbar__tag text-white">Text</button>
+      <button class="tagbar__tag text-white">Profiles</button>
+      <button class="tagbar__tag text-white">Links</button>
+      <button class="tagbar__tag text-white">More</button>
+    </div>
+    <!--main-content e.g. posts -->
+    <main class="app-grid__search--main"></main>
+    <!--nav-bar-->
+    <div class="nav-bar__sticky-bottom">
+      <nav class="footnav">
+        <a class="footnav__link" href=""
+          ><img
+            src="../../../images/icons8-for-you.svg"
+            alt="Gehe zur Newsseite"
+            widht="24"
+            height="24"
+        /></a>
+        <a class="footnav__link opacity-50" href=""
+          ><img
+            src="../../../images/icons8-search.svg"
+            alt="Gehe zur Suchfunktion"
+            widht="24"
+            height="24"
+        /></a>
+        <a href="" class="footnav__button">+</a>
+        <a class="footnav__link opacity-50" href=""
+          ><img
+            src="../../../images/bell.svg"
+            alt="Gehe zur Alerts-Page"
+            widht="24"
+            height="24"
+        /></a>
+        <a class="footnav__link opacity-50" href=""
+          ><img
+            src="../../../images/avatar.svg"
+            alt="Gehe zur Profilseite"
+            widht="24"
+            height="24"
+        /></a>
+      </nav>
+      <div class="footnav__underline__wrapper" app-grid__line>
+        <span class="footnav__underline"></span>
+      </div>
+    </div>
+  </body>
 </html>
