@@ -1,0 +1,29 @@
+.tagbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: scroll;
+  margin: 20px 0 50px 0;
+  gap: 15px;
+  padding-left: 20px;
+}
+
+.tagbar__tag {
+  border: 1px solid var(--light-white);
+  background-color: var(--dark-black);
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 18px;
+  font-weight: 200;
+}
+
+.tagbar__tag--all {
+  border: 1px solid var(--social-blue);
+  background-color: var(--social-blue);
+}
+
+.tagbar__tag:visited {
+  border: 1px solid var(--social-blue);
+  background-color: var(--social-blue);
+  font-weight: bolder;
+}
