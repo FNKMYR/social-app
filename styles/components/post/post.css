@@ -1,0 +1,13 @@
+.post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  width: 100%;
+  height: 304px;
+
+  /* position: absolute; */
+  /* left: 0px;
+  top: 232px; */
+}
