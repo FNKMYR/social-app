@@ -8,7 +8,6 @@
 
 html {
   background: var(--dark-black);
-  font-family: ;
 }
 
 body {
@@ -16,3 +15,8 @@ body {
   font-family: "hk_groteskmedium";
 }
 
+h1 {
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+}
