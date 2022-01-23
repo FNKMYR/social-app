@@ -81,3 +81,25 @@
   -ms-overflow-style: none;
   scrollbar-width: none; */
 }
+
+.post__startline-wrapper {
+  position: relative;
+}
+
+.options__three-points {
+  position: absolute;
+  bottom: 14px;
+  left: 310px;
+  transform: rotate(90deg);
+  display: flex;
+  gap: 2px;
+}
+
+.home__img--mail {
+  width: 18px;
+  height: 18px;
+}
+
+.bookmark-position {
+  padding-right: 6px;
+}
