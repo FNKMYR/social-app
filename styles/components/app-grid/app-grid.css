@@ -1,6 +1,6 @@
 .app-grid {
   display: grid;
-  grid-template-rows: 1fr 1fr 2fr 2fr 40px 40% 48px 5px;
+  grid-template-rows: 1fr 1fr 2fr 2fr 40px 40% 48px;
   height: 100vh;
 }
 
@@ -37,7 +37,8 @@
 /* search */
 
 .app-grid__search {
-  grid-template-areas: "a" "b" "c" "d" "d" "d" "nav";
+  grid-template-rows: 88px 36px 30px auto 88px;
+  grid-template-areas: "a" "b" "c" "d" "nav";
 }
 
 .app-grid__search--searchbar {
@@ -46,6 +47,7 @@
 
 .app-grid__search--heading {
   grid-area: b;
+  
 }
 
 .app-grid__search--tagbar {
@@ -58,6 +60,7 @@
   grid-area: d;
   overflow-y: scroll;
   overflow-x: hidden;
+  
 }
 
 /*alerts*/

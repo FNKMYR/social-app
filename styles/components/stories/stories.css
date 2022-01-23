@@ -1,0 +1,23 @@
+.storiesbar__tag {
+  border-radius: 30px;
+  text-decoration: none;
+  box-shadow: none;
+  border:none;
+}
+
+.storiesbar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  overflow-x: scroll;
+  margin-left: 6px;
+  gap: 15px;
+  padding-left: 20px;
+}
+
+.storiesbar__tag__img {
+  border-radius:30px;
+}
+
+
+
