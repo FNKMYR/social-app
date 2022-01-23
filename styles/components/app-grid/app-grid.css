@@ -1,6 +1,6 @@
 .app-grid {
   display: grid;
-  grid-template-rows: 1fr 1fr 2fr 2fr 40px 40% 48px;
+  grid-template-rows: 1fr 1fr 2fr 2fr 40px 40% 88px;
   height: 100vh;
 }
 
@@ -15,7 +15,8 @@
 /* home */
 
 .app-grid__home {
-  grid-template-areas: "a" "b" "b" "b" "b" "b" "nav";
+  grid-template-rows: 88px 1fr 2fr 2fr 40px 40% 88px;
+  grid-template-areas: "a" "b" "b" "c" "c" "c" "nav";
 }
 
 .app-grid__home--header {
@@ -29,7 +30,7 @@
 }
 
 .app-grid__home--main {
-  grid-area: b;
+  grid-area: c;
   overflow-y: scroll;
   overflow-x: hidden;
 }
@@ -47,7 +48,6 @@
 
 .app-grid__search--heading {
   grid-area: b;
-  
 }
 
 .app-grid__search--tagbar {
@@ -60,7 +60,6 @@
   grid-area: d;
   overflow-y: scroll;
   overflow-x: hidden;
-  
 }
 
 /*alerts*/
