@@ -4,8 +4,6 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  margin-left: 24px;
-  margin-top: 25px;
 }
 .post ul {
   list-style: none;
@@ -14,11 +12,8 @@
 .post__content {
   display: flex;
   flex-direction: column;
-  margin: 0px 24px 0px 24px;
-  width: 100%;
-  height: 288px;
-  margin-right: 24px;
-  top: 0px;
+  margin: 0px 0px 16px 0px;
+  width: 87.2%;
 }
 
 .post__profile {
@@ -27,7 +22,6 @@
   align-items: center;
   padding: 0px;
   position: static;
-  width: 136px;
   height: 34px;
 }
 
@@ -55,46 +49,68 @@
   font-weight: normal;
   font-size: 12px;
   line-height: 16px;
+  margin: 2px 0px;
 }
 
 .post__carousel {
-  margin: 16px 0 0 0;
+  width: 93.6vw;
+  margin: 16px 0 7.5px 0;
+  padding-right: 12px;
   display: flex;
   flex-direction: row;
   align-items: center;
   overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+/* .post__carousel li {
+  margin-bottom: 4.5px;
+  padding-bottom: -4.5px;
+} */
+
+.post__carousel::-webkit-scrollbar {
+  display: none;
 }
 
 .post__carousel-image {
-  margin: 0 24px 0 0;
-  border-radius: 20px;
+  margin: 0 12px 0 0;
+  border-radius: 16px;
+  width: 87.2vw;
+  scroll-snap-align: start;
 }
 
 .post__carousel-indicator {
   display: flex;
   justify-content: center;
-  align-items: center;
-  margin-right: 24px;
   gap: 10px;
+  height: 6px;
+}
+
+.post__carousel-indicator-icon {
+  margin: 0;
+  padding: 0;
+  line-height: 6px;
+}
+
+.post__actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
 }
 
 .post__actions-left {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  line-height: 16px;
 }
 
-.post__actions-left > li > img {
-  padding-right: 10px;
-}
-
-.post__actions-left > li > img {
-  padding-left: 20px;
-}
-
-.post__actions-left > li:first-child > img {
-  padding-left: 0;
-}
-
-.post__actions-left > li:last-child {
-  padding-left: 73px;
+.post__actions-left-li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 12px;
 }
