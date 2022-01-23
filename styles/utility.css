@@ -5,3 +5,12 @@
 .text-white {
   color: var(--light-white);
 }
+
+.unstyled-list {
+  list-style: none;
+}
+
+.unstyled-links {
+  color: inherit;
+  text-decoration: none;
+}
